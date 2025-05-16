@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Love Letter</title>
+
+    <!-- Font Awesome for heart icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex justify-center items-center w-screen h-screen bg-pink-100">
+
+    
+
+    <div class="flex gap-10 items-center justify-center">
+        <!-- Photo Gallery (shifted left) -->
+        <div class="gallery-container">
+            <div class="gallery">
+                <img src="Images/image1.jpg">
+                <img src="Images/image2.jpg">
+                <img src="Images/image3.jpg">
+                <img src="Images/image4.jpeg">
+                <img src="Images/image5.webp">
+                <img src="Images/image6.jpeg">  
+                <img src="Images/image7.jpg">     
+            </div>
+        </div>
+
+        <!-- Love Letter Section -->
+        <div class="flex flex-col items-center justify-center w-full text-center mr-16">
+            <div id="message-container" class="hidden mt-4 w-full max-w-2xl">
+                <h2 class="text-2xl text-red-500 font-bold"> Valentines Day Letter </h2>
+                <article id="message" class="prose mt-4"></article>
+            </div>
+        
+            <!-- Heart Button -->
+            <i id="solid-heart" class="fa-solid fa-heart fa-beat fa-5x text-red-500 cursor-pointer hover:text-red-700 mt-6"></i>
+        </div>
+    </div>
+
+    <!-- Markdown-it for letter formatting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.2/markdown-it.min.js"></script>
+    <script src="script.js"></script>
+    
+        <div class="valentines">
+            <div class="envelope">
+                <div class="card">
+                    <div class="text">
+                        First Name<br> Last Name
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+            <div class="front"></div>
+        </div>
+
+<img src="Images/pinkheart.png" class="heart-img" style="top: 10%; left: 5%;">
+<img src="Images/pinkheart.png" class="heart-img" style="top: 20%; left: 90%;">
+<img src="Images/pinkheart.png" class="heart-img" style="top: 50%; left: 10%;">
+<img src="Images/pinkheart.png" class="heart-img" style="top: 83%; left: 75%;">
+<img src="Images/pinkheart.png" class="heart-img" style="top: 90%; left: 20%;">
+<img src="Images/pinkheart.png" class="heart-img" style="top: 2%; left: 70%;">
+<img src="Images/pinkheart.png" class="heart-img" style="top: 2%; left: 33%;">   
+</body>
+</html>
